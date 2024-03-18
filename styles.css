@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;  
+    color: white;
+}
+
+#logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    border-radius: 8px;
+    margin-left: 0px;
+    width: 150pxpx;
+}
+
+.section1,
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    gap: 8px;
+    background-color: #1f2937;
+    font-size: 17px;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.placeholder{
+    background-color: grey;
+    padding: 100px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.text-container{
+    color: white;
+    width: 400px;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    padding: 40px;
+    gap: 24px;
+}
+
+.box{
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 50px;
+    width: 30px;
+}
+
+.box-containers{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.subtext-container{
+    display: flex;
+    padding-top: 0;
+    justify-content: space-around;
+}
+
+#information-header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.subtext2{
+    width: 200px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 80px;
+}
+
+.testiomnial{
+    width: 550px;
+    font-size: 36px;
+    font-weight: light;
+}
+
+.testiomnial-footer{
+    align-self: flex-end;
+    font-size: 18px;
+    padding-right: 200px;
+    font-weight: bold;
+}
+
+.section5,
+.cta-background{
+    display: flex;  
+    align-items: center;
+    padding: 80px;
+    gap: 100px;
+}
+
+.cta-background{
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+}
